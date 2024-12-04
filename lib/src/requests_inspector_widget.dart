@@ -282,7 +282,8 @@ class _Inspector extends StatelessWidget {
           padding: const EdgeInsets.all(12.0),
           alignment: Alignment.center,
           decoration: BoxDecoration(
-            color: isSelected ? const Color(0xFF1C1B1F) : Colors.white,
+            color:
+                isSelected ? const Color(0xFF34C100) : const Color(0xFF1C1B1F),
             borderRadius: isSelected
                 ? null
                 : BorderRadius.only(
@@ -297,7 +298,7 @@ class _Inspector extends StatelessWidget {
           child: Text(
             title,
             style: TextStyle(
-              color: isSelected ? Colors.white : Colors.black,
+              color: isSelected ? Colors.white : Colors.white,
               fontWeight: isSelected ? FontWeight.w800 : FontWeight.w300,
             ),
           ),
