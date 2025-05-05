@@ -1,3 +1,11 @@
+## 4.2.1
+
+- Fix `connectivity_plus` version dependency issue with `graphql` thanks to [MohamedGawdat](https://github.com/MohamedGawdat)
+
+## 4.2.0
+
+- Support Flutter v3.27.0 thanks to [MAlazhariy](https://github.com/MAlazhariy)
+
 ## 4.1.2
 
 - Dispose singleton when dispose notifier thanks to [AnthonyXcode](https://github.com/AnthonyXcode).
